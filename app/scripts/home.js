@@ -1,4 +1,4 @@
-var React = require('react');
+var React = window.React = require('react');
 
 var Home = React.createClass({
 	render: function() {
@@ -9,3 +9,8 @@ var Home = React.createClass({
 		);
 	}
 });
+
+React.render(
+	<Home/>,
+	document.body
+);
