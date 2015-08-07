@@ -1,19 +1,33 @@
-node_modules/
-dist/
-.sass-cache/
-bower_components/
+### SublimeText ###
+*.sublime-workspace
 
-__MACOSX
+### OSX ###
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
 
-# OS generated files #
-######################
-*/.DS_Store
-.DS_Store
-.DS_Store?
+# Thumbnails
 ._*
+
+# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-Icon?
-ehthumbs.db
+
+### Windows ###
+# Windows image file caches
 Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# App specific
+
+node_modules/
+.tmp
+dist
+/src/main.js
