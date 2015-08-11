@@ -1,7 +1,9 @@
 'use strict';
 
 var React = require('react/addons');
+var Router = require('react-router');
 var ReactTransitionGroup = React.addons.TransitionGroup;
+var RouteHandler = Router.RouteHandler;
 
 // CSS
 require('normalize.css');
@@ -15,6 +17,7 @@ var SteppingStoneApp = React.createClass({
       <div className="main">
         <ReactTransitionGroup transitionName="fade">
           <img src={imageURL} />
+          <RouteHandler/>
         </ReactTransitionGroup>
       </div>
     );
