@@ -4,6 +4,7 @@ var React = require('react/addons');
 var Router = require('react-router');
 var ReactTransitionGroup = React.addons.TransitionGroup;
 var RouteHandler = Router.RouteHandler;
+var Link = Router.Link;
 
 // CSS
 require('normalize.css');
